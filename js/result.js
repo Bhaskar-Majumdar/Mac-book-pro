@@ -60,8 +60,7 @@ promoCodeForm.addEventListener('submit', (call) => {
         memory.removeEventListener('click', optionHandler)
         storage.removeEventListener('click', optionHandler)
         delivery.removeEventListener('click', optionHandler)
-        total.innerText = parseInt(totalPrice.innerText) - parseInt(totalPrice.innerText) * 0.2
-        alert('Applied This Promo Code Successfully!!');
+        total.innerText = parseInt(totalPrice.innerText) - parseInt(totalPrice.innerText) * 0.2; // after using promo code calculation
     }
     else {
         alert('Promo Code Is Wrong!! Try Again');
