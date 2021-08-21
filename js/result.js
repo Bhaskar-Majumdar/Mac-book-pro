@@ -32,16 +32,15 @@ function optionHandler(call) {
     total.innerText = currentPrice;
     totalPrice.innerText = currentPrice;
 }
-
 // Price updating function
 function updatePrice(text) {
-    if (text.startsWith('16GB')) {
+    if (text.includes('16GB')) {
         return 180;
     }
-    else if (text.startsWith('512GB')) {
+    else if (text.includes('512GB')) {
         return 100;
     }
-    else if (text.startsWith('1TB')) {
+    else if (text.includes('1TB')) {
         return 180;
     }
     else if (text.includes('Aug 21')) {
@@ -51,7 +50,6 @@ function updatePrice(text) {
         return 0;
     }
 }
-
 //Promo Code
 const button = document.querySelector('.btn-danger')
 promoCodeForm.addEventListener('submit', (call) => {
