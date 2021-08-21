@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+                <img src="images/mac.png" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col">
+                <div id="description">
+                    <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                        and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports
+                        Magic Mouse Magic Keyboard US English</p>
+                </div>
+                <div class="mt-5">
+                    <h6 class="fw-bold">Memory</h6>
+                    <div id="memory">
+                        <button class="btn btn-outline-dark">8GB unified memory</button>
+                        <button class="btn btn-outline-dark">16GB unified memory</button>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h6 class="fw-bold">Storage</h6>
+                    <div id="storage">
+                        <button class="btn btn-outline-dark">256GB SSD storage</button>
+                        <button class="btn btn-outline-dark">512GB SSD storage</button>
+                        <button class="btn btn-outline-dark">1TB SSD storage</button>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h6 class="fw-bold">Delivery</h6>
+                    <div id="delivery">
+                        <button class="btn btn-outline-dark">Friday, Aug 25 Free Prime Delivery</button>
+                        <button class="btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+                </div>
+
+                <div class="mt-5 w-50">
+                    <div id="basePrice" class="border-bottom py-2 d-flex justify-content-between">
+                        <h6 class="fw-bold">Best Price</h6>
+                        <h6 class="fw-bold">$<span>1299</span></h6>
+                    </div>
+                    <div id="extraMemoryCost" class="border-bottom py-2 d-flex justify-content-between">
+                        <h6 class="fw-bold">Extra Memory Cost</h6>
+                        <h6 class="fw-bold">$<span>0</span></h6>
+                    </div>
+                    <div id="extraStorageCost" class="border-bottom py-2 d-flex justify-content-between">
+                        <h6 class="fw-bold">Extra Storage Cost</h6>
+                        <h6 class="fw-bold">$<span>0</span></h6>
+                    </div>
+                    <div id="deliveryCharge" class="border-bottom py-2 d-flex justify-content-between">
+                        <h6 class="fw-bold">Delivery Charges</h6>
+                        <h6 class="fw-bold">$<span>0</span></h6>
+                    </div>
+                    <div id="totalPrice" class="border-top border-dark py-2 d-flex justify-content-between">
+                        <h6 class="fw-bold">Total Price</h6>
+                        <h6 class="fw-bold">$<span>1299</span></h6>
+                    </div>
+                    <div class="border-top py-2">
+                        <h6>Add Promo Code</h6>
+                        <form action="" id="promoCodeForm" class="d-flex">
+                            <input type="text" name="" id="inputField" class="form-control">
+                            <input type="submit" value="Apply" class="btn btn-danger ms-0 ms-md-1">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-top py-3">
+            <h1 class="text-center" id="total">Total: $<span>1299</span></h1>
+        </div>
+
+
+        <!-- bootstrap bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <script src="js/calculate.js"></script>
+</body>
+
+</html>
